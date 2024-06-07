@@ -1,0 +1,21 @@
+name: TheNavySeals
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - spyder
+  - gdal
+  - shapely
+  - pandas
+  - geopandas
+  - osmnx
+  - geosnap
+  - folium
+  - fiona
+  - jupyter
+  - earthengine-api
+  - geemap
+  - pygadm
+  - pytorch
+  - torchvision
+  - osgeo
