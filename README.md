@@ -32,3 +32,7 @@ The working repository of the Navy Seal project
 - Merge the branch into main: `git merge <your-branch>`
 - Update the merge: `git push origin main`
 
+## Branch operations
+- List local branches: `git branch`
+- List remote branches: `git branch -r`
+- List all branches: `git branch`
