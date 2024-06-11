@@ -9,6 +9,7 @@ TheNavySeals/
 		input/
 			images/
 				22MAR25134903-P3DS-014983717010_01_P001.tif
+			shapefiles/
 				Seals.shp
 		output/
 			preprocessing/
