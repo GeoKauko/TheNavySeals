@@ -9,18 +9,22 @@ TheNavySeals/
 		input/
 			images/
 				22MAR25134903-P3DS-014983717010_01_P001.tif
-				Seals.shp
+			shapefiles/
+				seals_features.shp
 		output/
 			preprocessing/
-				part_i_j.tif
-				part_i_j.tif
-				...
-				points_i_j.shp
-				points_i_j.shp
-				...
-				mask_i_j.tif
-				mask_i_j.tif
-				...
+				parts/
+					part_i_j.tif
+					part_i_j.tif
+					...
+				points/
+					points_i_j.shp
+					points_i_j.shp
+					...
+				mask/
+					mask_i_j.tif
+					mask_i_j.tif
+					...
 			sealdetection/
 				model (format??)
 			postprocessing/
