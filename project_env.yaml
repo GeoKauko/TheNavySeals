@@ -1,10 +1,28 @@
 name: TheNavySeals
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - python
   - numpy
   - matplotlib
-  - geopandas
   - gdal
-  - rasterio
   - shapely
-  - opencv
+  - pandas
+  - geopandas
+  - osmnx
+  - geosnap
+  - folium
+  - fiona
+  - jupyter
+  - geemap
+  - pygadm
+  - pytorch
+  - torchvision
+  - pillow
+  - tk
+  - scikit-learn
+  - segmentation-models-pytorch
+  - tifffile
+  - zipfile
+  - tabulate
