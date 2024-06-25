@@ -11,19 +11,19 @@ TheNavySeals/
 			1ps_shapefile/
 				seals_reprojected.shp
 			1a_reduced_image/
-				panchromatic_reduced.tif
+				1a_panchromatic_reduced.tif
 			1b_panchromatic_parts/
 				part_i_j.tif
 				part_i_j.tif
 				...
 			1c_raster_mask/
-				raster_mask.tif
+				1c_raster_mask.tif
 			1d_mask_parts/
 				part_i_j.tif
 				part_i_j.tif
 				...
 			1e_raster_statistics/
-				statistics.csv
+				1e_statistics.csv
 		2_deep_learning/
 			2a_training_set/
 				train/
