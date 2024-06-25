@@ -5,51 +5,57 @@ TheNavySeals/
 	README.md
 	project_env.yaml
 	data/
-		input/
-			images/
+		1_preprocessing/
+			1ps_image/
 				22MAR25134903-P3DS-014983717010_01_P001.tif
-			shapefiles/
-				seals_features.shp
-		output/
-			preprocessing/
-				parts/
+			1ps_shapefile/
+				seals_reprojected.shp
+			1a_reduced_image/
+				panchromatic_reduced.tif
+			1b_panchromatic_parts/
+				part_i_j.tif
+				part_i_j.tif
+				...
+			1c_raster_mask/
+				raster_mask.tif
+			1d_mask_parts/
+				part_i_j.tif
+				part_i_j.tif
+				...
+			1e_raster_statistics/
+				statistics.csv
+		2_deep_learning/
+			2a_training_set/
+				train/
 					part_i_j.tif
 					part_i_j.tif
 					...
-				points/
-					points_i_j.shp
-					points_i_j.shp
+				val/
+					part_i_j.tif
+					part_i_j.tif
 					...
-				mask/
-					mask_i_j.tif
-					mask_i_j.tif
+				test/
+					part_i_j.tif
+					part_i_j.tif
 					...
-			sealdetection/
-				model (format??)
-			postprocessing/
-				?
-		train/
-			images/
+			2b_final_model/
+				SealNN
+		3_postprocessing/
+			3a_reduced_image/
+				3a_reduced_image.tif
+			3b_tiled_images/
 				part_i_j.tif
 				part_i_j.tif
 				...
-			masks/
-				mask_i_j.tif
-				mask_i_j.tif
-				...
-		val/
-			images/
+			3c_predicted_masks/
 				part_i_j.tif
 				part_i_j.tif
 				...
-			masks/
-				mask_i_j.tif
-				mask_i_j.tif
-		test/
-			images/
+			3d_predicted_masks_georef/
 				part_i_j.tif
 				part_i_j.tif
 				...
-			masks/
-				mask_i_j.tif
-				mask_i_j.tif
+			3e_predicted_mask_final/
+				3e_predicted_mask.tif
+			3f_mask_heatmap/
+				3f_mask_heatmap.tif
