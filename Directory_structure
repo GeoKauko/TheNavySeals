@@ -1,7 +1,6 @@
 TheNavySeals/
-	1_Preprocessing.ipynb
-	2_Seal_detection.ipynb
-	3_Postprocessing.ipynb
+	1_Training_notebook.ipynb
+	2_Postprocessing.ipynb
 	LICENCE
 	README.md
 	project_env.yaml
