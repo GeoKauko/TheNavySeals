@@ -23,6 +23,7 @@ dependencies:
   - pillow
   - tk
   - scikit-learn
+  - scikit-image
   - segmentation-models-pytorch
   - tifffile
   - zipfile
