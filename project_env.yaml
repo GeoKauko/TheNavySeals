@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - torch
+  - pytorch
   - python
   - numpy
   - matplotlib
@@ -26,5 +26,4 @@ dependencies:
   - scikit-image
   - segmentation-models-pytorch
   - tifffile
-  - zipfile
   - tabulate
