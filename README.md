@@ -2,7 +2,7 @@
 The working repository of the Navy Seal project.
 
 ## Setting up the project for detection of seals using the UI
-Follow these steps to use the application to detect seals on personal images. This can be used on panchromatic images with a 30cm resolution.
+Follow these steps to use the application to detect seals on panchromatic images with a 30cm resolution.
 
 ### Set up the environment in Google Colab
 To use the app in Google Colab
