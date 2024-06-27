@@ -17,7 +17,7 @@ To use the app in Google Colab
 
 ### Start the app
 - Run the 2_Postprocessing.ipynb up until folder creation
-- Download [SealNN](https://drive.google.com/file/d/1IWb0OrisF4eLZvCWTsA2GrMwPeBPcd3M/view?usp=drive_link) and save it in the "TheNavySeals/data/2_deep_learning/2b_final_model
+- Download [SealNN](https://drive.google.com/file/d/1IWb0OrisF4eLZvCWTsA2GrMwPeBPcd3M/view?usp=drive_link) and save it in the "TheNavySeals/data/2_deep_learning/2b_final_model" directory
 - Run the rest of the code until the app opens up
 - Select your image and press process
 - The app will tell you when the image is done processing and the location of the output heatmap and predicted mask 
