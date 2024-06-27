@@ -1,38 +1,23 @@
 # TheNavySeals
-The working repository of the Navy Seal project
+The working repository of the Navy Seal project.
 
-# Python Environment
-- Download Anaconda and use Anaconda Prompt as a terminal.
-- Navigate using `cd` commands to the cloned Git repository on your computer.
-- In the root folder of the project:
+# Setting up the project for detection of seals using the UI
+Follow these steps to use the application to detect seals on personal images. This can be used on panchromatic images with a 30cm resolution.
+
+## Set up the environment in Google Colab
+To use the app in Google Colab
+
+## Set up the environment locally
+- Clone the GIT repository from https://github.com/GeoKauko/TheNavySeals.git on your local drive
+- Set up the environment using [Anaconda](https://www.anaconda.com/download)
+    - Open Anaconda Prompt
+    - Navigate to your the root folder of your project directory
     - Create the environment from the `yaml` file: `conda env create --file project_env.yaml`
-    - Activate environment: `conda activate TheNavySeals`
-- When adding a library to the `yaml` file, recreate the environment:
-    - Deactivate the environment: `conda deactivate`
-    - Check if you are now in the `base` environment: `conda info --envs` - the base environment should have the `*` symbol in front of it
-    - Delete TheNavySeals environment: `conda env remove -n TheNavySeals`
-    - Recreate environment: `conda env create --file project_env.yaml`
-    - Reactivate environment: `conda activate TheNavySeals`
+- Open the project from your preferred IDE and activate the environment "TheNavySeals"
 
-
-# Git cheatsheet
-## Create new branch
-- Make sure you're on the main branch: `git checkout main`
-- Create a new branch from main: `git checkout -b <new-branch-name> main`
-- Publish branch: `git push -u origin <new-branch-name>`
-
-## Delete branch
-- Make sure you're on the main branch: `git checkout main`
-- Delete branch locally: `git branch -d <branch-name>`
-- Delete branch remotely: `git push origin --delete <branch-name>`
-
-## Merge branch into main
-- Make sure you're on the main branch: `git checkout main`
-- Update main branch: `git pull origin main`
-- Merge the branch into main: `git merge <your-branch>`
-- Update the merge: `git push origin main`
-
-## Branch operations
-- List local branches: `git branch`
-- List remote branches: `git branch -r`
-- List all branches: `git branch`
+## Start the app
+- Run the 2_Postprocessing.ipynb up until folder creation
+- Download [SealNN](https://drive.google.com/file/d/1IWb0OrisF4eLZvCWTsA2GrMwPeBPcd3M/view?usp=drive_link) and save it in the "TheNavySeals/data/2_deep_learning/2b_final_model
+- Run the rest of the code until the app opens up
+- Select your image and press process
+- The app will tell you when the image is done processing and the location of the output heatmap and predicted mask 
